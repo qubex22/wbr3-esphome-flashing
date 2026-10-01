@@ -1,0 +1,27 @@
+# Local credentials and ESPHome state
+secrets.yaml
+.esphome/
+
+# Local flash dumps contain device credentials and Tuya keys
+backup/
+*.dump
+stock.bin
+
+# Generated build output
+.pio/
+build/
+__pycache__/
+
+# Editors and OS metadata
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local research checkouts; upstreams and pinned commits are documented
+research/
+
+# Local experiment output
+logs/
+# Original working drafts remain local; sanitized copies live under examples/
+draft/
